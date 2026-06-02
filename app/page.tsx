@@ -20,7 +20,7 @@ export default function Home() {
           <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-cyan-500/20 blur-3xl rounded-full" />
           <div className="absolute top-20 right-0 w-[500px] h-[500px] bg-purple-500/20 blur-3xl rounded-full" />
         </div>
-
+pointer-events-none
         <div className="relative max-w-7xl mx-auto px-6 py-50 text-center">
 
           {/* Logo */}
@@ -84,7 +84,7 @@ export default function Home() {
   href="https://wa.me/13055880713?text=Hello%20Musicways%20Summer%20Camp!%20I%20would%20like%20to%20reserve%20a%20spot."
   target="_blank"
   rel="noopener noreferrer"
-  className="inline-block bg-cyan-400 text-black font-bold text-xl px-12 py-6 rounded-2xl shadow-[0_0_40px_rgba(34,211,238,0.5)] hover:scale-105 transition"
+  className="relative z-50 inline-block bg-cyan-400 text-black font-bold text-xl px-12 py-6 rounded-2xl shadow-[0_0_40px_rgba(34,211,238,0.5)] hover:scale-105 transition"
 >
   RESERVE YOUR SPOT
 </a>
