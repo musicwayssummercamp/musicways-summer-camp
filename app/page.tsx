@@ -974,10 +974,7 @@ pointer-events-none
 </footer>
 
 </section>
-<div className="absolute inset-0">
-  <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-cyan-500/10 blur-3xl rounded-full" />
-  <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-purple-500/10 blur-3xl rounded-full" />
-</div>
+
     </main>
   );
 }
