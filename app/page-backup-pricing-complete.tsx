@@ -20,7 +20,7 @@ export default function Home() {
           <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-cyan-500/20 blur-3xl rounded-full" />
           <div className="absolute top-20 right-0 w-[500px] h-[500px] bg-purple-500/20 blur-3xl rounded-full" />
         </div>
-
+pointer-events-none
         <div className="relative max-w-7xl mx-auto px-6 py-50 text-center">
 
           {/* Logo */}
@@ -84,7 +84,7 @@ export default function Home() {
   href="https://wa.me/13055880713?text=Hello%20Musicways%20Summer%20Camp!%20I%20would%20like%20to%20reserve%20a%20spot."
   target="_blank"
   rel="noopener noreferrer"
-  className="inline-block bg-cyan-400 text-black font-bold text-xl px-12 py-6 rounded-2xl shadow-[0_0_40px_rgba(34,211,238,0.5)] hover:scale-105 transition"
+  className="relative z-50 inline-block bg-cyan-400 text-black font-bold text-xl px-12 py-6 rounded-2xl shadow-[0_0_40px_rgba(34,211,238,0.5)] hover:scale-105 transition"
 >
   RESERVE YOUR SPOT
 </a>
@@ -648,11 +648,13 @@ export default function Home() {
 
 <div className="flex justify-center">
   <a
-    href="https://wa.me/13055880713"
-    className="w-48 py-3 bg-cyan-400 text-black font-bold rounded-xl hover:scale-105 transition"
-  >
-    Reserve Now
-  </a>
+  href="https://wa.me/13055880713?text=Hello%20Musicways%20Summer%20Camp!%20I%20am%20interested%20in%20the%201-Week%20Experience."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-48 py-3 bg-cyan-400 text-black font-bold rounded-xl hover:scale-105 transition"
+>
+  Reserve Now
+</a>
 </div>
 
 
@@ -683,12 +685,13 @@ export default function Home() {
 
 <div className="flex justify-center">
   <a
-    href="https://wa.me/13055880713"
+    href="https://wa.me/13055880713?text=Hello%20Musicways%20Summer%20Camp!%20I%20am%20interested%20in%20the%202-Week%20Immersion."
+    target="_blank"
+    rel="noopener noreferrer"
     className="w-48 py-3 bg-cyan-400 text-black font-bold rounded-xl hover:scale-105 transition"
   >
     Reserve Now
   </a>
-
 </div>
 
   </div>
@@ -910,10 +913,10 @@ export default function Home() {
   }}
 >
 
-  <div className="absolute inset-0">
-    <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-cyan-500/10 blur-3xl rounded-full" />
-    <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-purple-500/10 blur-3xl rounded-full" />
-  </div>
+  <div className="absolute inset-0 pointer-events-none">
+  <div className="absolute top-0 left-0 ..."/>
+  <div className="absolute bottom-0 right-0 ..."/>
+</div>
 
   <div className="relative max-w-5xl mx-auto text-center">
 
@@ -974,10 +977,7 @@ export default function Home() {
 </footer>
 
 </section>
-<div className="absolute inset-0">
-  <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-cyan-500/10 blur-3xl rounded-full" />
-  <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-purple-500/10 blur-3xl rounded-full" />
-</div>
+
     </main>
   );
 }

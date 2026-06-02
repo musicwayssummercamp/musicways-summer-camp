@@ -124,16 +124,21 @@ pointer-events-none
       Meet Your Coaches
     </h2>
 
-<div className="flex justify-center mt-4">
-  <span className="px-6 py-2 rounded-full bg-cyan-500/10 border border-cyan-400/30 text-cyan-300 font-semibold">
-    Grammy-Winning Coaches • 80+ Years Combined Industry Experience
-  </span>
-</div>
+<p className="text-center text-cyan-300 text-xl md:text-2xl font-semibold mb-6">
+  🏆 Grammy-Winning Coaches
+</p>
 
-    <p className="text-center text-gray-200 text-xl md:text-2xl max-w-4xl mx-auto mb-16 leading-relaxed">
+<p className="text-center text-gray-200 text-xl md:text-2xl max-w-4xl mx-auto mb-16">
   Learn from experienced professionals in music production,
   voice acting, audio engineering and media creation.
 </p>
+
+<div className="flex justify-center mt-4">
+  <span className="px-6 py-2 rounded-full bg-cyan-500/10 border border-cyan-400/30 text-cyan-300 font-semibold">
+    
+  </span>
+</div>
+
 
     <div className="grid md:grid-cols-2 gap-10">
 
@@ -152,7 +157,7 @@ pointer-events-none
         </h3>
 
 <p className="text-cyan-300 font-bold text-lg mt-2">
-  🏆 Grammy Winner
+ 
 </p>
 
 <p className="text-gray-400 text-sm mt-2">
@@ -187,7 +192,7 @@ pointer-events-none
         </h3>
 
         <p className="text-cyan-300 font-bold text-lg mt-2">
-  🏆 Grammy Winner
+ 
 </p>
 
 <p className="text-gray-400 text-sm mt-2">
