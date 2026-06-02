@@ -1,6 +1,10 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 
 export default function Home() {
+  const [showCarlosBio, setShowCarlosBio] = useState(false);
   return (
     <main className="min-h-screen bg-[#050816] text-white">
 
@@ -149,7 +153,8 @@ pointer-events-none
         <img
   src="/images/carlos-puchi.jpg"
   alt="Carlos Puchi"
-  className="w-72 h-72 object-cover object-top rounded-full mx-auto mb-8 border-4 border-cyan-400"
+  onClick={() => setShowCarlosBio(true)}
+  className="w-72 h-72 object-cover object-top rounded-full mx-auto mb-8 border-4 border-cyan-400 cursor-pointer hover:scale-105 transition"
 />
 
         <h3 className="text-3xl font-bold">
@@ -982,7 +987,54 @@ pointer-events-none
 </footer>
 
 </section>
+{showCarlosBio && (
+  <div className="fixed inset-0 bg-black/80 z-[9999] flex items-center justify-center p-6">
+    <div className="bg-[#020617] border border-cyan-400 rounded-3xl max-w-3xl w-full p-8 relative">
 
+      <button
+        onClick={() => setShowCarlosBio(false)}
+        className="absolute top-4 right-4 text-cyan-300 text-3xl hover:text-white"
+      >
+        ×
+      </button>
+
+      <h2 className="text-4xl font-black text-cyan-400 mb-2">
+        Carlos Puchi
+      </h2>
+
+      <p className="text-cyan-300 font-semibold mb-6">
+        🏆 Grammy-Winning Coach
+      </p>
+
+      <div className="space-y-4 text-gray-200 leading-relaxed">
+
+        <p>
+          Carlos Puchi is a Grammy-winning Music Producer, Vocal Coach,
+          Bassist and Voice Over Instructor with more than 40 years of
+          experience in the Music and Entertainment Industry.
+        </p>
+
+        <p>
+          Throughout his career, he has worked with internationally
+          recognized artists including Ricky Martin, Ricardo Montaner,
+          Chayanne, Oscar D'León, Olga Tañón, José José, Franco De Vita and many others.
+        </p>
+
+        <p>
+          Carlos has been a Vocal Instructor for more than 15 years in South
+          Florida and is passionate about helping young artists develop
+          confidence, creativity and professional skills in music, media and
+          performance.
+        </p>
+
+        <p className="text-cyan-300 font-semibold">
+          Teaching the next generation of music and media creators.
+        </p>
+
+      </div>
+    </div>
+  </div>
+)}
     </main>
   );
 }
