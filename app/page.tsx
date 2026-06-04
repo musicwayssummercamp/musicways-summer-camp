@@ -393,12 +393,11 @@ pointer-events-none
 </div>
 
         <p className="text-gray-300">
-          My daughter gained confidence, learned professional recording
-          techniques and absolutely loved the experience.
+          Juan Diego's experience at Music Ways summer camp was amazing. He had a lot of fun, learned tons about music, and made friends. I highly recommend it!
         </p>
 
         <p className="mt-6 font-bold">
-          Parent Testimonial
+          Carolina Sandoval (Parent)
         </p>
 
       </div>
@@ -415,7 +414,7 @@ pointer-events-none
         </p>
 
         <p className="mt-6 font-bold">
-          Student Testimonial
+          David Malave (Student)
         </p>
 
       </div>
@@ -427,12 +426,11 @@ pointer-events-none
 </div>
 
         <p className="text-gray-300">
-          Professional coaches, small groups and real studio experience.
-          Highly recommended.
+          The camp allows them to develop skills in vocal technique, recording, video production, and music creation. Furthermore, they combine education, creativity, and fun while discovering the process of making music.
         </p>
 
         <p className="mt-6 font-bold">
-          Parent Testimonial
+          Angela Farías (Parent)
         </p>
 
       </div>
