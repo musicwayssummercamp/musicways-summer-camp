@@ -5,6 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   const [showCarlosBio, setShowCarlosBio] = useState(false);
+  const [showEduardoBio, setShowEduardoBio] = useState(false);
   return (
     <main className="min-h-screen bg-[#050816] text-white">
 
@@ -184,13 +185,12 @@ pointer-events-none
 
       <div className="bg-white/5 border border-cyan-500/20 rounded-3xl p-8 text-center">
 
-        <div className="w-72 h-72 rounded-full mx-auto mb-8 border-4 border-cyan-400 flex items-center justify-center bg-cyan-500/10">
-
-          <span className="text-cyan-300 text-xl">
-            Photo Coming Soon
-          </span>
-
-        </div>
+       <img
+  src="/images/eduardo-stambury.jpg"
+  alt="Eduardo Stambury"
+  onClick={() => setShowEduardoBio(true)}
+  className="w-72 h-72 object-cover object-[100%_center] rounded-full mx-auto mb-8 border-4 border-cyan-400 cursor-pointer hover:scale-105 transition"
+/>
 
         <h3 className="text-3xl font-bold">
           Eduardo Stambury
@@ -1003,7 +1003,7 @@ pointer-events-none
       </h2>
 
       <p className="text-cyan-300 font-semibold mb-6">
-        🏆 Grammy-Winning Coach
+        🏆 Grammy-Winning Musician - Singer - Coach
       </p>
 
       <div className="space-y-4 text-gray-200 leading-relaxed">
@@ -1032,6 +1032,65 @@ pointer-events-none
         </p>
 
       </div>
+    </div>
+  </div>
+)}
+{showEduardoBio && (
+  <div className="fixed inset-0 bg-black/80 z-[9999] flex items-center justify-center p-6">
+    <div className="bg-[#020617] border border-cyan-400 rounded-3xl max-w-3xl w-full p-8 relative overflow-y-auto max-h-[90vh]">
+
+      <button
+        onClick={() => setShowEduardoBio(false)}
+        className="absolute top-4 right-4 text-cyan-300 text-3xl hover:text-white"
+      >
+        ×
+      </button>
+
+      <h2 className="text-4xl font-black text-cyan-400 mb-2">
+        Eduardo Stambury
+      </h2>
+
+      <p className="text-cyan-300 font-semibold mb-6">
+        🏆 Latin Grammy-Winning Music Producer & Educator
+      </p>
+
+      <div className="space-y-4 text-gray-200 leading-relaxed">
+
+        <p>
+          Eduardo Stambury is a UNICEF and Latin Grammy-winning Music Producer,
+          Audio Engineer, Educator and Entrepreneur with more than
+          25 years of experience in Music Production, Artist Development,
+          Recording and Entertainment Education.
+        </p>
+
+        <p>
+          He studied Music Production and Orchestration for Film & TV
+          at Berklee College of Music and earned a Master's Degree in
+          Entertainment Business from Full Sail University.
+        </p>
+
+        <p>
+          Throughout his career he has produced, recorded and collaborated
+          on projects in world-renowned studios including Abbey Road Studios
+          in London, as well as facilities in Madrid, Milan, Los Angeles,
+          Miami and New York.
+        </p>
+
+        <p>
+          Eduardo currently operates his own professional recording studio
+          in Miami while serving as an Audio Production Instructor at
+          Miami Media School, where he mentors future Music Producers,
+          Engineers and Content Creators.
+        </p>
+
+        <p>
+          His passion is helping young artists discover their creative voice
+          while learning Professional Production, Recording and Media skills
+          in a real-world Studio Environment.
+        </p>
+
+      </div>
+
     </div>
   </div>
 )}
