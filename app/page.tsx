@@ -95,11 +95,13 @@ pointer-events-none
 </a>
 
             <a
-              href="#"
-              className="inline-block border border-cyan-400 text-cyan-300 px-10 py-5 rounded-2xl hover:bg-cyan-400/10 transition"
-            >
-              Watch Camp Video
-            </a>
+  href="https://youtu.be/AHvHMoQTJCs"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block border border-cyan-400 text-cyan-300 px-10 py-5 rounded-2xl hover:bg-cyan-400/10 hover:scale-105 transition duration-300"
+>
+  Watch Camp Video
+</a>
 
           </div>
 
@@ -434,6 +436,118 @@ pointer-events-none
         </p>
 
       </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+{/* CAMP VIDEOS */}
+
+<section className="py-24 px-6 bg-[#050816]">
+
+  <div className="max-w-7xl mx-auto">
+
+    <h2 className="text-5xl md:text-6xl font-black text-center mb-4">
+      Camp Videos
+    </h2>
+
+    <div className="flex justify-center mb-6">
+      <span className="px-6 py-2 rounded-full bg-cyan-500/10 border border-cyan-400/30 text-cyan-300 font-semibold">
+        Real Students • Real Studio Experience
+      </span>
+    </div>
+
+    <p className="text-center text-gray-300 text-xl md:text-2xl mb-16 max-w-4xl mx-auto">
+      Watch real Musicways students learning, recording and creating.
+    </p>
+
+    <div className="grid md:grid-cols-2 gap-8">
+
+      {/* VIDEO 1 */}
+
+      <a
+        href="https://youtu.be/AHvHMoQTJCs"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group"
+      >
+        <div className="overflow-hidden rounded-3xl border border-cyan-500/20">
+          <img
+            src="https://img.youtube.com/vi/AHvHMoQTJCs/maxresdefault.jpg"
+            alt="Welcome to Musicways"
+            className="w-full h-72 object-cover group-hover:scale-105 transition duration-300"
+          />
+        </div>
+
+        <h3 className="text-2xl font-bold mt-4 text-cyan-300">
+          🎬 Welcome to Musicways Summer Camp
+        </h3>
+      </a>
+
+      {/* VIDEO 2 */}
+
+      <a
+        href="https://youtu.be/5LIZ9UnOiOw"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group"
+      >
+        <div className="overflow-hidden rounded-3xl border border-cyan-500/20">
+          <img
+            src="https://img.youtube.com/vi/5LIZ9UnOiOw/maxresdefault.jpg"
+            alt="Recording Studio Experience"
+            className="w-full h-72 object-cover group-hover:scale-105 transition duration-300"
+          />
+        </div>
+
+        <h3 className="text-2xl font-bold mt-4 text-cyan-300">
+          🎤 Voice Acting & Performance
+        </h3>
+      </a>
+
+      {/* VIDEO 3 */}
+
+      <a
+        href="https://www.youtube.com/watch?v=CWSN63kqYoA"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group"
+      >
+        <div className="overflow-hidden rounded-3xl border border-cyan-500/20">
+          <img
+            src="https://img.youtube.com/vi/CWSN63kqYoA/maxresdefault.jpg"
+            alt="Music Production"
+            className="w-full h-72 object-cover group-hover:scale-105 transition duration-300"
+          />
+        </div>
+
+        <h3 className="text-2xl font-bold mt-4 text-cyan-300">
+          🎧 Music Production & Creativity
+        </h3>
+      </a>
+
+      {/* VIDEO 4 */}
+
+      <a
+        href="https://www.youtube.com/watch?v=DI-eZfTTmXA"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group"
+      >
+        <div className="overflow-hidden rounded-3xl border border-cyan-500/20">
+          <img
+            src="https://img.youtube.com/vi/DI-eZfTTmXA/maxresdefault.jpg"
+            alt="Voice Acting"
+            className="w-full h-72 object-cover group-hover:scale-105 transition duration-300"
+          />
+        </div>
+
+        <h3 className="text-2xl font-bold mt-4 text-cyan-300">
+          🎙️ Recording Studio Experience
+        </h3>
+      </a>
 
     </div>
 
