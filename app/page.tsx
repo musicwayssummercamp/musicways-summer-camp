@@ -414,7 +414,7 @@ pointer-events-none
         </p>
 
         <p className="mt-6 font-bold">
-          David Malave (Student)
+          David Malave (Student Age 13)
         </p>
 
       </div>
