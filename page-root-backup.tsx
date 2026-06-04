@@ -443,7 +443,7 @@ pointer-events-none
 
 </section>
 
-{/* CAMP VIDEOS */}
+{/* Camp Videos TEST 123 */}
 
 <section className="py-24 px-6 bg-[#050816]">
 
@@ -460,10 +460,10 @@ pointer-events-none
     </div>
 
     <p className="text-center text-gray-300 text-xl md:text-2xl mb-16 max-w-4xl mx-auto">
-      Watch real Musicways students learning, recording and creating.
+      Watch real Musicways students recording music, creating media and exploring the world of professional voice acting and dubbing.
     </p>
 
-    <div className="grid md:grid-cols-2 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
       {/* VIDEO 1 */}
 
@@ -531,25 +531,28 @@ pointer-events-none
       {/* VIDEO 4 */}
 
       <a
-        href="https://www.youtube.com/watch?v=DI-eZfTTmXA"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group"
-      >
-        <div className="overflow-hidden rounded-3xl border border-cyan-500/20">
-          <img
-            src="https://img.youtube.com/vi/DI-eZfTTmXA/maxresdefault.jpg"
-            alt="Voice Acting"
-            className="w-full h-72 object-cover group-hover:scale-105 transition duration-300"
-          />
-        </div>
+  href="https://www.youtube.com/watch?v=Xk5YpGiwizU"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group"
+>
+  <div className="overflow-hidden rounded-3xl border border-cyan-500/20">
+    <img
+      src="https://img.youtube.com/vi/Xk5YpGiwizU/hqdefault.jpg"
+      alt="Movie & TV Dubbing"
+      className="w-full h-72 object-cover group-hover:scale-105 transition duration-300"
+    />
+  </div>
 
-        <h3 className="text-2xl font-bold mt-4 text-cyan-300">
-          🎙️ Recording Studio Experience
-        </h3>
-      </a>
+  <h3 className="text-2xl font-bold mt-4 text-cyan-300">
+    TEST VIDEO 5
+  </h3>
+</a>
 
-{/* VIDEO 5 */}
+<div className="bg-red-500 text-white p-4 text-center">
+  VIDEO 5 START
+</div>
+      {/* VIDEO 5 */}
 
 <a
   href="https://www.youtube.com/watch?v=Xk5YpGiwizU"
@@ -565,9 +568,9 @@ pointer-events-none
     />
   </div>
 
-  <h3 className="text-2xl font-bold mt-4 text-cyan-300">
-    🎙️ Movie & TV Dubbing Experience
-  </h3>
+  <h3 className="text-4xl font-black mt-4 text-red-500">
+  VIDEO 5
+</h3>
 </a>
 
 {/* VIDEO 6 */}
@@ -590,6 +593,7 @@ pointer-events-none
     🎭 Character Voice Performance
   </h3>
 </a>
+
     </div>
 
   </div>
