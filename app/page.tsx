@@ -721,9 +721,21 @@ pointer-events-none
 
       <p> Session 1 · July 6 – July 17</p>
 
+      <p className="text-cyan-300 font-semibold mt-2">
+  Monday – Friday • 9:00 AM – 2:00 PM
+</p>
+
       <p> Session 2 · July 20 – July 31</p>
 
+      <p className="text-cyan-300 font-semibold mt-2">
+  Monday – Friday • 9:00 AM – 2:00 PM
+</p>
+
       <p> Session 3 · August 3 – August 14</p>
+
+      <p className="text-cyan-300 font-semibold mt-2">
+  Monday – Friday • 9:00 AM – 2:00 PM
+</p>
 
     </div>
 
@@ -1043,7 +1055,7 @@ pointer-events-none
 
   <summary className="cursor-pointer text-xl font-bold text-cyan-300 list-none flex justify-between items-center">
 
-    What should students bring?
+    What should students bring each day?
 
     <span className="text-cyan-400 text-2xl group-open:rotate-45 transition">
       +
@@ -1052,9 +1064,7 @@ pointer-events-none
   </summary>
 
   <p className="text-gray-300 mt-4 leading-relaxed">
-    Students only need a positive attitude, creativity and a willingness to learn.
-    All professional recording studio equipment, software and learning materials
-    are provided by Musicways Summer Camp.
+    Students should bring a light lunch, water bottle, and a positive attitude. All professional studio equipment and learning materials are provided by Musicways Summer Camp.
   </p>
 
 </details>
